@@ -2,6 +2,15 @@
 Basic CRUD API based on user and user-profile.
 
 
+## Launching APP
+* Create virtual environment and install requirements.txt
+* Create superuser using python manage.py createsuperuser
+* Create migrations using ./manage.py makemigrations
+* Run migrations using ./manage.py migrations
+* Launch development server using python manage.py runserver
+
+App Will be available on http://localhost:8000
+
 
 ## API Reference
 
